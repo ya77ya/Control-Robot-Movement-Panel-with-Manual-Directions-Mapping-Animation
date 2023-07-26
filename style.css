@@ -1,0 +1,70 @@
+body 
+{
+    background-image: url('Robot.gif'),
+    url('Robot.gif');
+    background-repeat: no-repeat, 
+    no-repeat ;
+    background-size: 200px ,200px;
+    background-position-x: 100px, 1000px;
+    background-position-y: 80px, 80px;}
+
+.imglogo{
+    width: 180px;
+    display : block;
+   margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+
+  
+  h1{
+text-align: center;
+color: #b8015c;
+margin-top: 1%;
+font-weight: bold;
+font-family: Segoe print,Arial, Helvetica, sans-serif;
+
+
+
+  }
+
+.container {
+    max-width: 10%;
+    display: flex;
+}
+
+
+.col{
+   margin-top: 10%;
+   align-self: center;
+
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    display:flex;
+    align-self: right;
+}
+.canvas{
+    height: 380px;
+    width: 900px;;
+    margin: auto;
+    display:block;
+    align-self: center;    
+    border: 1px solid  #b8015c;
+    box-shadow: 2px 1px 1px #0089b3;
+    
+}
+
+span {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+img:hover {
+    background-color: rgb(219, 219, 219);
+}
+
